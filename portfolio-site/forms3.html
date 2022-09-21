@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Register</h1>
+    <form action="">
+            <label for="Fname">Name:</label><br>
+            <input type="text" id="Fname" name="Fname" placeholder="Full name"><br>
+            <label for="Email">Email Address:</label><br>
+            <input type="email" id="Email" name="Email" placeholder="Email" ><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" placeholder="password"><br>
+            <label for="password">confirm password:</label><br>
+            <input type="password" id="password" name="password" placeholder="confirm password"><br><br>
+            
+        <fieldset>
+            <legend>Select Favorite color</legend>
+            <input type="radio" id="RED" name="fav_color" value="Red">
+            <label for="RED">Red</label><br>
+            <input type="radio" id="Black" name="fav_color" value="Black">
+            <label for="BLACK">Black</label><br>
+            <input type="radio" id="BLUE" name="fav_color" value="Blue">
+            <label for="BLUE">Blue</label><br>
+            <input type="radio" id="WHITE" name="fav_color" value="White">
+            <label for="WHITE">White</label><br>
+        </fieldset>
+        <fieldset>
+            <legend>Select Favorite days of the week</legend>
+            <input type="checkbox" id="MONDAY" name="fav_week" value="Monday">
+            <label for="MONDAY">Monday</label><br>
+            <input type="checkbox" id="TUESDAY" name="fav_week" value="Tuesday">
+            <label for="TUESDAY">Tuesday</label><br>
+            <input type="checkbox" id="WEDNESDAY" name="fav_week" value="Wednesday">
+            <label for="WEDNESDAY">Wednesday</label><br>
+            <input type="checkbox" id="THURSDAY" name="fav_week" value="Thursday">
+            <label for="THURSDAY">Thursday</label><br>
+            <input type="checkbox" id="FRIDAY" name="fav_week" value="Friday">
+            <label for="FRIDAY">Friday</label><br>
+            <input type="checkbox" id="SATURDAY" name="fav_week" value="Saturday">
+            <label for="SATURDAY">Saturday</label><br>
+            <input type="checkbox" id="SUNDAY" name="fav_week" value="Sunday">
+            <label for="SUNDAY">Sunday</label><br>  
+        </fieldset><br>
+        <label for="Seasons">Select favorite seasons of the year:</label> 
+        <select name="Seasons" id="Seasons" >
+            <optgroup label="Season" >
+                
+                <option value="Fall">Fall</option>
+                <option value="Winter">Winter</option>
+                <option value="Spring">Spring</option>
+                <option value="Summer">Summer</option>
+            </optgroup>
+        </select><br>
+        <br><label for="building">Campus building name:</label>
+        <input list="buildings" name="building" id="building">
+        <datalist id="buildings">
+            <option value="Town Campus">
+            <option value="Uphill Campus">
+            <option value="Dexter Campus">
+            <option value="Aluta Campus ">
+        </datalist>
+        <input type="submit" value="send info">
+        <button>sign in</button>
+    </form><br>
+   
+
+</body>
+</html>
